@@ -1,5 +1,5 @@
 import {Collapse} from 'bootstrap';
-
+import './Navbar.css'
 
 function Navbar () {
   return (
@@ -9,7 +9,7 @@ function Navbar () {
           </button> 
 
           <div class="collapse navbar-collapse justify-content-center" id="coll">
-            <ul class="navbar-nav text-center" style={{fontFamily: 'tangerine', fontSize: '35px', textShadow: '4px 4px 4px #aaa'}}>
+            <ul class="navbar-nav text-center" id="custom-links">
             <li class="nav-item">
               <a href="#" class="nav-link">About</a>
             </li>

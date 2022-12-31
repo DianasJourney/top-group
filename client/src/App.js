@@ -1,9 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Example from './components/Example'
+
+import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
-    <Example/>
+    <div>
+      <Navbar />
+    </div>
   );
 }
 

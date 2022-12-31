@@ -9,7 +9,7 @@ function Navbar () {
           </button> 
 
           <div class="collapse navbar-collapse justify-content-center" id="coll">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav text-center" style={{fontFamily: 'tangerine', fontSize: '35px', textShadow: '4px 4px 4px #aaa'}}>
             <li class="nav-item">
               <a href="#" class="nav-link">About</a>
             </li>

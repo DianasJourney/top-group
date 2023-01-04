@@ -7,14 +7,6 @@
   width: 120px;
 }
 
-#instagram-logo {
-  width: 60px;
-}
-
-#youtube-logo {
-  width: 64px;
-}
-
 .nav-link {
   position: relative;
 }
@@ -35,6 +27,15 @@
   opacity: 1;
 }
 
+#svg-yt:hover {
+  fill: red;
+  transition: .5s ease-in-out;
+}
+
+#svg-insta:hover {
+  fill: rgb(133, 74, 127);
+  transition: .5s ease-in-out;
+}
 
 @media screen and (max-width: 768px) {
   #ins-soc,

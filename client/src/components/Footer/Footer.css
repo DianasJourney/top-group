@@ -52,9 +52,6 @@ hr {
   border-top: 2px solid;
 }
 
-#logotesting {
-  padding: 5px;
-}
 
 #custom-gc {
   color: darkgoldenrod;
@@ -62,10 +59,19 @@ hr {
 
 
 .footer-text-color {
-  color: goldenrod;
+  color: darkgoldenrod;
 }
 
 #social-follow-text {
-  color: rgb(119, 172, 233);
+  color: darkgoldenrod;
   margin-right: 50px;
 }
+
+#svg-footer-yt:hover, #svg-footer-insta:hover {
+  fill: darkgoldenrod
+}
+
+#svg-footer-yt, #svg-footer-insta {
+  padding: 1px;
+}
+

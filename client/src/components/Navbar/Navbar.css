@@ -16,12 +16,11 @@
 }
 
 .nav-link {
-  color: black;
- position: relative;
+  position: relative;
 }
 
 .nav-link::after {
-  content: "";
+  content: '';
   opacity: 0;
   transition: all 0.2s;
   height: 2px;
@@ -36,13 +35,10 @@
   opacity: 1;
 }
 
-#youtube-logo:hover{
- 
-}
 
 @media screen and (max-width: 768px) {
   #ins-soc,
-  #yt-soc{
+  #yt-soc {
     display: none;
   }
 }

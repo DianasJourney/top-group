@@ -3,15 +3,15 @@
   font-size: 24px;
 }
 
-#logoimg{
-width: 120px;
+#logo-img {
+  width: 120px;
 }
 
-.social-logos{
-width: 60px;
+.social-logos {
+  width: 60px;
 }
 
-.nav-link{
-  color:black;
+.nav-link {
+  color: black;
   text-shadow: 2px 1px 1px #b18b02;
 }

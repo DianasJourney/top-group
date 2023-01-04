@@ -6,9 +6,9 @@ import youtubelogo from '../../assets/youtubelogo.png';
 
 function Navbar() {
   return (
-    <nav class='navbar navbar-expand-md bg-light navbar-light shadow-sm p-3 mb-5 bg-body rounded'>
+    <nav class='navbar navbar-expand-md bg-light navbar-light shadow-sm p-3 bg-body rounded'>
       <a href='#' class='navbar-brand'>
-        <img src={logo} alt='logo' id='logoimg' />
+        <img src={logo} alt='logo' id='logo-img' />
       </a>
       {/* toggles navbar once it gets to a certain size, switching it to a hamburger icon */}
       <button
@@ -54,7 +54,10 @@ function Navbar() {
       >
         <img src={instalogo} alt='instalogo' class='social-logos' />
       </a>
-      <a href='https://www.youtube.com/@poldosreno2014' class='navbar-brand'>
+      <a
+        href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
+        class='navbar-brand'
+      >
         <img src={youtubelogo} alt='ytlogo' class='social-logos' />
       </a>
     </nav>

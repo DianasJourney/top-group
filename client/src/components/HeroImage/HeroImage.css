@@ -1,0 +1,11 @@
+.overlay {
+  background-color: black;
+  height: 615px;
+}
+
+.hero-image {
+  background-image: url('../../assets/kitchenIsland.jpg');
+  background-size: cover;
+  opacity: 0.5;
+  height: 615px;    
+}

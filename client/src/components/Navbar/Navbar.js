@@ -31,7 +31,7 @@ function Navbar () {
           </li>
 
           <li class='nav-item'>
-            <a href='#' class='nav-link'>
+            <a href='#' class='nav-link' >
               Service
             </a>
           </li>
@@ -53,12 +53,12 @@ function Navbar () {
       {/* social media logo brands */}
       <a
         href='https://www.instagram.com/tgc.topgroupconstruction/'
-        class='navbar-brand'
+        class='navbar-brand' id='ins-soc'
       >
-        <img src={instalogo} alt='instalogo' class='social-logos' />
+        <img src={instalogo} alt='instalogo' id='instagram-logo' />
       </a>
-      <a href='https://www.youtube.com/@poldosreno2014' class='navbar-brand'>
-        <img src={youtubelogo} alt='ytlogo' class='social-logos' />
+      <a href='https://www.youtube.com/@poldosreno2014' class='navbar-brand' id='yt-soc'>
+        <img src={youtubelogo} alt='ytlogo' id='youtube-logo' />
       </a>
     </nav>
   );

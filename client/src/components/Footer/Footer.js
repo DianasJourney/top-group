@@ -2,7 +2,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer>
+    <footer className="mb-3">
       <div className='container-fluid mt-5'>
         <div className='card bg-white mx-5'>
           <div className='row mb-4'>

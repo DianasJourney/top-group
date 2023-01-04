@@ -16,7 +16,6 @@
 }
 
 .nav-link {
-  color: black;
   position: relative;
 }
 
@@ -36,8 +35,6 @@
   opacity: 1;
 }
 
-#youtube-logo:hover {
-}
 
 @media screen and (max-width: 768px) {
   #ins-soc,

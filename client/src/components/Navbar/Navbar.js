@@ -1,10 +1,10 @@
-import {Collapse} from 'bootstrap';
-import './Navbar.css'
-import logo from "../../assets/logo.png"
-import instalogo from "../../assets/instalogo.png"
-import youtubelogo from "../../assets/youtubelogo.png"
+import { Collapse } from 'bootstrap';
+import './Navbar.css';
+import logo from '../../assets/logo.png';
+import instalogo from '../../assets/instalogo.png';
+import youtubelogo from '../../assets/youtubelogo.png';
 
-function Navbar () {
+function Navbar() {
   return (
     <nav className='navbar navbar-expand-md bg-light navbar-light shadow-sm p-3 bg-body rounded'>
       <a href='#' className='navbar-brand'>
@@ -31,7 +31,7 @@ function Navbar () {
           </li>
 
           <li className='nav-item'>
-            <a href='#' className='nav-link' >
+            <a href='#' className='nav-link'>
               Service
             </a>
           </li>
@@ -53,16 +53,20 @@ function Navbar () {
       {/* social media logo brands */}
       <a
         href='https://www.instagram.com/tgc.topgroupconstruction/'
-        className='navbar-brand' id='ins-soc'
+        className='navbar-brand'
+        id='ins-soc'
       >
         <img src={instalogo} alt='instalogo' id='instagram-logo' />
       </a>
-      <a href='https://www.youtube.com/@poldosreno2014' className='navbar-brand' id='yt-soc'>
+      <a
+        href='https://www.youtube.com/@poldosreno2014'
+        className='navbar-brand'
+        id='yt-soc'
+      >
         <img src={youtubelogo} alt='ytlogo' id='youtube-logo' />
       </a>
     </nav>
   );
 }
-
 
 export default Navbar;

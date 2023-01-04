@@ -6,7 +6,7 @@ import youtubelogo from "../../assets/youtubelogo.png"
 
 function Navbar () {
   return (
-    <nav className='navbar navbar-expand-md bg-light navbar-light shadow-sm p-3 mb-5 bg-body rounded'>
+    <nav className='navbar navbar-expand-md bg-light navbar-light shadow-sm p-3 bg-body rounded'>
       <a href='#' className='navbar-brand'>
         <img src={logo} alt='logo' id='logoimg' />
       </a>

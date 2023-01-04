@@ -59,3 +59,13 @@ hr {
 #custom-gc {
   color: darkgoldenrod;
 }
+
+
+.footer-text-color {
+  color: goldenrod;
+}
+
+#social-follow-text {
+  color: rgb(119, 172, 233);
+  margin-right: 50px;
+}

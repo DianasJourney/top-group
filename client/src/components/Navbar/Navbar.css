@@ -1,17 +1,48 @@
 #custom-links {
-  font-family: andika;
+  font-family: old standard tt;
   font-size: 24px;
 }
 
-#logo-img {
+#logoimg {
   width: 120px;
 }
 
-.social-logos {
+#instagram-logo {
   width: 60px;
+}
+
+#youtube-logo {
+  width: 64px;
 }
 
 .nav-link {
   color: black;
-  text-shadow: 2px 1px 1px #b18b02;
+ position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 100%;
+  background-color: goldenrod;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+}
+
+#youtube-logo:hover{
+ 
+}
+
+@media screen and (max-width: 768px) {
+  #ins-soc,
+  #yt-soc{
+    display: none;
+  }
 }

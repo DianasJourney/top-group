@@ -1,3 +1,7 @@
+:root {
+  --darkgoldenrod: #B8860B;
+}
+
 body {
   background-color: #f3f6fd;
   font-size: 13px;
@@ -50,21 +54,21 @@ hr {
 }
 
 #custom-gc {
-  color: darkgoldenrod;
+  color: var(--darkgoldenrod);
 }
 
 .footer-text-color {
-  color: darkgoldenrod;
+  color: var(--darkgoldenrod);
 }
 
 #social-follow-text {
-  color: darkgoldenrod;
+  color: var(--darkgoldenrod);
   margin-right: 50px;
 }
 
 #svg-footer-yt:hover,
 #svg-footer-insta:hover {
-  fill: darkgoldenrod;
+  fill: var(--darkgoldenrod);
 }
 
 #svg-footer-yt,

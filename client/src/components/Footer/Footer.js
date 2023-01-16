@@ -1,6 +1,7 @@
 import './Footer.css';
 import ScrollToTop from 'react-scroll-to-top';
-import {ReactComponent as MySVG } from './logo.svg'
+import {ReactComponent as MySVG } from './logo.svg';
+
 function Footer() {
   return (
     <footer className='mb-3'>

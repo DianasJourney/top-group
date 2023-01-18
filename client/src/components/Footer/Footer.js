@@ -1,8 +1,12 @@
 import './Footer.css';
+import ScrollToTop from 'react-scroll-to-top';
+import {ReactComponent as MySVG } from './logo.svg';
 
 function Footer() {
   return (
     <footer className='mb-3'>
+      <ScrollToTop style={{background: 'transparent'}} component={<MySVG/>}
+      />
       <div className='container-fluid mt-5'>
         <div className='card bg-white mx-5'>
           <div className='row mb-4'>
@@ -60,18 +64,16 @@ function Footer() {
             </div>
             <div className='col-md-3 col-sm-4 col-xs-4'>
               <h5 className='heading'>Contact</h5>
-              <p className='footer-text-color'>
-                Email:{' '}
-                <span>placeholder@tgc.com</span>
-              </p>
-              <p className='footer-text-color'>
-                {' '}
-                Phone: (416) ### ####
-              </p>
-              <p className='footer-text-color'>
-                {' '}
-                Bella Flooring at 1412 Kennedy Rd, Scarborough, ON M1P 2L7
-              </p>
+              <ul>
+                <li className='footer-text-color'>
+                  Email: <span>placeholder@tgc.com</span>
+                </li>
+                <li className='footer-text-color'> Phone: (416) ### ####</li>
+                <li className='footer-text-color'>
+                  {' '}
+                  Bella Flooring at 1412 Kennedy Rd, Scarborough, ON M1P 2L7
+                </li>
+              </ul>
             </div>
           </div>
           <div className='divider mb-4'> </div>

@@ -1,3 +1,7 @@
+:root {
+  --darkgoldenrod: #B8860B;
+}
+
 body {
   background-color: #f3f6fd;
   font-size: 13px;
@@ -16,10 +20,7 @@ ul > li {
   color: #c5cae9;
 }
 
-ul > li:hover {
-  color: #957bda;
-  cursor: pointer;
-}
+
 
 hr {
   border-width: 3px;
@@ -52,26 +53,27 @@ hr {
   border-top: 2px solid;
 }
 
-
 #custom-gc {
-  color: darkgoldenrod;
+  color: var(--darkgoldenrod);
 }
 
-
 .footer-text-color {
-  color: darkgoldenrod;
+  color: var(--darkgoldenrod);
 }
 
 #social-follow-text {
-  color: darkgoldenrod;
+  color: var(--darkgoldenrod);
   margin-right: 50px;
 }
 
-#svg-footer-yt:hover, #svg-footer-insta:hover {
-  fill: darkgoldenrod
+#svg-footer-yt:hover,
+#svg-footer-insta:hover {
+  fill: var(--darkgoldenrod);
 }
 
-#svg-footer-yt, #svg-footer-insta {
+#svg-footer-yt,
+#svg-footer-insta {
   padding: 1px;
 }
+
 

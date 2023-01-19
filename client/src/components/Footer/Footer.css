@@ -2,9 +2,9 @@
   --darkgoldenrod: #B8860B;
 }
 
-body {
+.footer-container {
   background-color: #f3f6fd;
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: bold;
   color: rgb(189, 196, 203);
 }
@@ -20,24 +20,12 @@ ul > li {
   color: #c5cae9;
 }
 
-
-
 hr {
   border-width: 3px;
 }
 
 .card {
-  padding: 2% 7%;
-}
-
-.social > i {
-  padding: 1%;
-  font-size: 15px;
-}
-
-.social > i:hover {
-  color: #957bda;
-  cursor: pointer;
+  padding: 2vh 7vw;
 }
 
 .policy > div {
@@ -63,7 +51,7 @@ hr {
 
 #social-follow-text {
   color: var(--darkgoldenrod);
-  margin-right: 50px;
+  margin-right: 5rem;
 }
 
 #svg-footer-yt:hover,

@@ -4,7 +4,7 @@ import {ReactComponent as MySVG } from './logo.svg';
 
 function Footer() {
   return (
-    <footer className='mb-3'>
+    <footer className='mb-3 footer-container'>
       <ScrollToTop style={{background: 'transparent'}} component={<MySVG/>}
       />
       <div className='container-fluid mt-5'>

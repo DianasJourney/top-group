@@ -1,13 +1,12 @@
-#about-row {
+.about-row {
     align-items: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 7rem 0;
+    font-size: 1.4rem;
 }
 
-#header-text{
+.header-text {
     color: black;
     font-family: old standard tt;
     font-weight: bold;
+    font-size: 5rem;
 }
-
-

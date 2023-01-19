@@ -7,7 +7,7 @@ function About() {
   return (
     <section className='bg-light'>
       <div className='container'>
-        <div className='row' id='about-row'>
+        <div className='row about-row'>
           <div className='col-lg-4 col-md-12 col-12'>
             <div>
               <AnimationOnScroll animateIn='animate__fadeIn'>
@@ -18,7 +18,7 @@ function About() {
           <div className='col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5'>
             <div>
               <AnimationOnScroll animateIn='animate__fadeIn'>
-                <h2 id='header-text'>About Section</h2>
+                <h2 className='header-text'>About Section</h2>
                 <p>
                   {' '}
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
